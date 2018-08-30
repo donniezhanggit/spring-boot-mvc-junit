@@ -11,13 +11,16 @@
 
 <%--<p>${"name"}</p>--%>
 <%--<p>${param.values()}</p>--%>
+<%--
 <form method="post">
     Name : <input type="text" name="name"/>
     Password : <input type="password" name="password"/>
     <input type="submit"/>
 </form>
+--%>
 
-<%--<p>hello : ${param.get("name")}</p>--%>
+<p>hello : ${param.get("name")}</p> <a href="/list-todos">Click here</a> to manage your Todo's
+<p> your password is : ${param.get("password")} </p>
 
 </body>
 
